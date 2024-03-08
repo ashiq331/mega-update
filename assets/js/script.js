@@ -4,7 +4,7 @@ let clinets = new Swiper(".clients__brands", {
   autoplay: {
     delay: 5000,
   },
-  
+
   pagination: {
     clickable: true,
   },
@@ -56,13 +56,12 @@ const addEventOnElem = function (elem, type, callback) {
   } else {
     elem.addEventListener(type, callback);
   }
-}
+};
 // Sticky Header
-const header = document.querySelector("header")
+const header = document.querySelector("header");
 window.addEventListener("scroll", function () {
   header.classList.toggle("scrolled", window.scrollY > 13);
   console.log(this.window.scrollY);
-
 });
 
 /**
@@ -75,12 +74,12 @@ const overlay = document.querySelector("[data-overlay]");
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
   overlay.classList.toggle("active");
-}
+};
 addEventOnElem(navTogglers, "click", toggleNavbar);
 const closeNavbar = function () {
   navbar.classList.remove("active");
   overlay.classList.remove("active");
-}
+};
 addEventOnElem(navbarLinks, "click", closeNavbar);
 //  HOme Bottom Slider
 let boxes = new Swiper(".boxes", {
@@ -91,7 +90,6 @@ let boxes = new Swiper(".boxes", {
   },
 
   breakpoints: {
-
     300: {
       slidesPerView: 2,
     },
@@ -123,8 +121,6 @@ let boxes = new Swiper(".boxes", {
     1250: {
       slidesPerView: 5.1,
     },
-
-
   },
 });
 // Service Up Section Slider
@@ -136,7 +132,6 @@ let serviceupswiperup = new Swiper(".service__list-up", {
   },
 
   breakpoints: {
-
     300: {
       slidesPerView: 1.2,
     },
@@ -168,7 +163,6 @@ let serviceupswiperup = new Swiper(".service__list-up", {
     1300: {
       slidesPerView: 4,
     },
-
   },
 });
 // Service Down Section Slider
@@ -180,7 +174,6 @@ let serviceupswiperdown = new Swiper(".service__list-down", {
   },
 
   breakpoints: {
-
     300: {
       slidesPerView: 1.2,
     },
@@ -212,7 +205,6 @@ let serviceupswiperdown = new Swiper(".service__list-down", {
     1300: {
       slidesPerView: 4,
     },
-
   },
 });
 // Team Member Slider
@@ -224,7 +216,6 @@ let teamcontent = new Swiper(".team__content", {
   },
 
   breakpoints: {
-
     300: {
       slidesPerView: 1.2,
     },
@@ -254,9 +245,8 @@ let teamcontent = new Swiper(".team__content", {
     },
 
     1300: {
-      slidesPerView: 3.2
+      slidesPerView: 3.2,
     },
-
   },
 });
 // Clients Section Slider
@@ -269,7 +259,6 @@ let process = new Swiper(".work__process", {
   },
 
   breakpoints: {
-
     300: {
       slidesPerView: 1.3,
     },
@@ -290,20 +279,17 @@ let process = new Swiper(".work__process", {
       slidesPerView: 3,
     },
 
-
     1050: {
       slidesPerView: 3.2,
     },
 
-
     1300: {
-      slidesPerView: 3.5
+      slidesPerView: 3.5,
     },
 
     1400: {
-      slidesPerView: 4
+      slidesPerView: 4,
     },
-
   },
 });
 // number counter
@@ -385,26 +371,30 @@ animateValue4(obj, 6, 0, 500);
 // add Event on multiple elment
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0; i < elements.length; i++) {
-      elements[i].addEventListener(eventType, callback);
+    elements[i].addEventListener(eventType, callback);
   }
-}
+};
 /**
-* CUSTOM CURSOR
-*/
+ * CUSTOM CURSOR
+ */
 const cursor = document.querySelector("[data-cursor]");
 const anchorElements = document.querySelectorAll("a");
 const buttons = document.querySelectorAll("button");
 // change cursorElement position based on cursor move
 document.body.addEventListener("mousemove", function (event) {
   setTimeout(function () {
-      cursor.style.top = `${event.clientY}px`;
-      cursor.style.left = `${event.clientX}px`;
+    cursor.style.top = `${event.clientY}px`;
+    cursor.style.left = `${event.clientX}px`;
   }, 100);
 });
 // add cursor hoverd class
-const hoverActive = function () { cursor.classList.add("hovered"); }
+const hoverActive = function () {
+  cursor.classList.add("hovered");
+};
 // remove cursor hovered class
-const hoverDeactive = function () { cursor.classList.remove("hovered"); }
+const hoverDeactive = function () {
+  cursor.classList.remove("hovered");
+};
 // add hover effect on cursor, when hover on any button or hyperlink
 addEventOnElements(anchorElements, "mouseover", hoverActive);
 addEventOnElements(anchorElements, "mouseout", hoverDeactive);
