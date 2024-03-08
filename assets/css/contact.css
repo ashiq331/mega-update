@@ -555,7 +555,7 @@ header .btn:hover
 
 .contact_network h3 {
     margin: 3rem 0;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 32px;
     font-family: var(--ff-tthoves-medium);
 }
@@ -620,6 +620,7 @@ header .btn:hover
 
     .contact__details h6 {
         padding-top: 4rem;
+        margin-right: -20px;
     }
 
 }

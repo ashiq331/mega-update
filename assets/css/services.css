@@ -794,7 +794,8 @@ header .btn:hover
 
 
     .service__boxes-list .service__boxes {
-        width: 80%;
+        width: 90%;
+        background: #F1F0EC;
     }
 
 
