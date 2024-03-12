@@ -1,9 +1,6 @@
 /*-----------------------------------*\
   #LOADING
 \*-----------------------------------*/
-video::-webkit-media-controls {
-  display: none !important;
-}
 
 /* box bar start */
 

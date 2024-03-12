@@ -137,6 +137,13 @@ button {
   color: var(--primary-color);
 }
 
+video::slotted::-webkit-media-controls-container{
+  display:none !important;
+  visibility: hidden!important;
+  opacity: 0 !important;
+ -webkit-appearance: none !important;
+}
+
 /* ----------------- Reused Styles ------------------ */
 
 .container {
