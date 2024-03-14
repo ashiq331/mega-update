@@ -91,11 +91,15 @@ let boxes = new Swiper(".boxes", {
 
   breakpoints: {
     100: {
-      slidesPerView: 1.5,
+      slidesPerView: 1.2,
     },
 
     300: {
-      slidesPerView: 1.9,
+      slidesPerView: 1.5,
+    },
+
+    440: {
+      slidesPerView: 1.8,
     },
 
     550: {

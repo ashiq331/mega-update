@@ -119,10 +119,11 @@
 
   .home__bottom-down .boxes {
     width: 100%;
+    margin-top: 15px;
   }
 
   .home__bottom-down .box h2{
-    font-size: 34px;
+    font-size: 48px;
   }
 
   .home__bottom-down .socials {
