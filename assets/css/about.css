@@ -1207,7 +1207,7 @@ header .btn:hover {
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 380px) {
   .about__hero-content {
     width: 100%;
   }
@@ -1216,8 +1216,8 @@ header .btn:hover {
   }
 
   .about__hero-content-right {
-    margin-top: -4rem;
-    margin-right: -15rem;
+    margin-top: -6rem;
+    margin-right: -10rem;
     margin-left: -11rem;
     min-width: 250px;
   }
