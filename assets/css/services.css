@@ -869,6 +869,8 @@ header .btn:hover {
   .service__boxes-list .service__boxes {
     width: 90%;
     background: #f1f0ec;
+    padding-left: 40px;
+    margin-left: -55px;
   }
 
   .extra__support-card {

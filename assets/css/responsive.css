@@ -121,6 +121,10 @@
     width: 100%;
   }
 
+  .home__bottom-down .box h2{
+    font-size: 34px;
+  }
+
   .home__bottom-down .socials {
     width: 60%;
     gap: 20px;

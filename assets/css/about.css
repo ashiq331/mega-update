@@ -1206,3 +1206,23 @@ header .btn:hover {
     --section-padding: 60px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .about__hero-content {
+    width: 100%;
+  }
+  .about__hero-content-left .about__hero-heading h1 .highlight-text {
+    margin-left: 3.5rem;
+  }
+
+  .about__hero-content-right {
+    margin-top: -4rem;
+    margin-right: -15rem;
+    margin-left: -11rem;
+    min-width: 250px;
+  }
+
+  .about__hero-content-left p {
+    width: 70%;
+  }
+}

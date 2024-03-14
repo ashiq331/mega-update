@@ -754,7 +754,7 @@ header .btn {
 }
 
 .home__bottom-down .boxes {
-  width: 80%;
+  width: 85%;
   height: 114px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -787,7 +787,6 @@ header .btn {
   -ms-flex-pack: start;
   justify-content: start;
   gap: 12px;
-  padding: 0px;
 }
 
 .home__bottom-down .box .line {
@@ -796,6 +795,7 @@ header .btn {
   height: 6rem;
   background-color: var(--white);
   opacity: 0.3;
+  z-index: 22;
 }
 
 .home__bottom-down h5 {
