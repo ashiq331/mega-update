@@ -857,6 +857,9 @@ header .btn:hover {
 
   .service__title p {
     width: 90%;
+    padding-left: 40px;
+    margin-left: -10px;
+    
   }
 
   .service__boxes-list {

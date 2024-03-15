@@ -1041,7 +1041,7 @@ header .btn:hover {
   }
 
   .about__hero-content-left h4 {
-    width: 50%;
+    width: 60%;
   }
   
 
@@ -1231,7 +1231,7 @@ header .btn:hover {
 
 @media screen and (max-width: 380px) {
   .about__hero-content-left h4 {
-    width: 70%;
+    width: 77%;
   }
 
   .about__hero-content-left p {
