@@ -73,8 +73,9 @@ html {
 
 section {
   width: 100%;
-  overflow: hidden !important;
+  overflow: auto;
 }
+
 .about__hero,
 .mission__section,
 .client__section,
@@ -533,6 +534,7 @@ header .btn:hover {
   background: var(--white-1);
   z-index: 0;
   position: relative;
+  overflow: hidden;
 }
 
 .about__hero .container {
