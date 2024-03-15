@@ -1240,7 +1240,7 @@ header .btn:hover {
   
   .about__hero-content-right{
     position: absolute;
-    right: 0rem;
-    top: 15rem;
+    right: -0.4rem;
+    top: 17rem;
   }
 }
