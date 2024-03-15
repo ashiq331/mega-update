@@ -859,7 +859,7 @@ header .btn:hover {
     width: 90%;
     padding-left: 40px;
     margin-left: -10px;
-    
+    background-color: var(--white-1);
   }
 
   .service__boxes-list {
