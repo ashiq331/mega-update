@@ -122,7 +122,7 @@
     margin-top: 15px;
   }
 
-  .home__bottom-down .box h2{
+  .home__bottom-down .box h2 {
     font-size: 48px;
   }
 
@@ -152,6 +152,15 @@
 
   .services {
     padding-top: 1rem;
+  }
+
+  .service__list-up .service__list-box h4,
+.service__list-down .service__list-box h4{
+  width: 80%;
+}
+  .service__list-up .service__list-box p,
+  .service__list-down .service__list-box p {
+    width: 80%;
   }
 
   /* ----------------------- Cover Image Start ----------------------------- */
@@ -537,6 +546,11 @@
 
   .services {
     padding-top: 1rem;
+  }
+
+  .service__list-up .service__list-box p,
+  .service__list-down .service__list-box p {
+    width: 90%;
   }
 
   /* ----------------------- Cover Image Start ----------------------------- */

@@ -144,16 +144,20 @@ let serviceupswiperup = new Swiper(".service__list-up", {
   },
 
   breakpoints: {
+    100: {
+      slidesPerView: 0.4,
+    },
+
     300: {
       slidesPerView: 1.2,
     },
 
     550: {
-      slidesPerView: 1.9,
+      slidesPerView: 1.3,
     },
 
     650: {
-      slidesPerView: 2.5,
+      slidesPerView: 2,
     },
 
     800: {
@@ -177,6 +181,7 @@ let serviceupswiperup = new Swiper(".service__list-up", {
     },
   },
 });
+
 // Service Down Section Slider
 let serviceupswiperdown = new Swiper(".service__list-down", {
   slidesPerView: 4,
@@ -186,16 +191,20 @@ let serviceupswiperdown = new Swiper(".service__list-down", {
   },
 
   breakpoints: {
+    100: {
+      slidesPerView: 0.4,
+    },
+
     300: {
       slidesPerView: 1.2,
     },
 
     550: {
-      slidesPerView: 1.9,
+      slidesPerView: 1.3,
     },
 
     650: {
-      slidesPerView: 2.5,
+      slidesPerView: 2,
     },
 
     800: {
